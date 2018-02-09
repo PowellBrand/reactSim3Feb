@@ -20,6 +20,8 @@
     display: flex;
     flex-direction: row;
     margin-right: 30px;
+    /* 24E */
+    padding: 20px;
     /* 27C */
     justify-content: space-around;
 }
