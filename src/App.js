@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="mainApp">
         <nav className="mainNav">
           <p className="navBtn">Helo</p>
           <p className="navBtn">home</p>

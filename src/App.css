@@ -21,19 +21,29 @@
 .App-intro {
   font-size: large;
 }
-
+.mainApp{
+  /* 23E */
+  background-color: rgb(242, 242, 242)
+}
 .mainNav{
   width: 100%;
   height: 10%;
-  /* 23F */
+  /* 23F, 30D */
   background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
+  /* 30C */
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1), 0 6px 6px 0 rgba(0,0,0,0.2);
+  /* 25F, 27G */
   display: flex;
+  /* 27C */
   justify-content: center;
+  /* 24E */
+  padding: 2px;
 }
 .navBtn{
 /* 24F */
   box-sizing: border-box;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
+
