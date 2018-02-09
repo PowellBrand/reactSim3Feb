@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import routes from './routes';
 import './App.css';
+import './components/dashboard/dashboard.css';
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
           <p className="navBtn">Dashboard</p>
           <p className="navBtn">Logout</p>
         </nav>
+        {routes}
       </div>
     );
   }
